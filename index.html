@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather App</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
-    <h1>Weather App </h1>
-  </header>
-  <main>
-    <section id="current-weather">
-      <h2>Currently</h2>
-      <form>
-        <label for="city">Enter City Name:</label>
-        <input type="text" id="city" name="city" placeholder="type here">
-        <button type="submit">Search</button>
-      </form>
-      <div id="weather-data">
-        <div id="city-info">
-          <h3 id="city-name"></h3>
-          <p id="date"></p>
-        </div>
-        <div id="weather-info">
-          <div id="icon"></div>
-          <p id="temperature"></p>
-          <p id="humidity"></p>
-          <p id="wind-speed"></p>
-        </div>
-      </div>
-    </section>
-  </main>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="script.js"></script>
+    <header>
+        <h1>Weather App</h1>
+    </header>
+    <main>
+        <section id="current-weather">
+            <h2>Currently</h2>
+            <form id="form">
+                <label for="city">Enter City Name:</label>
+                <input type="text" id="city" name="city" placeholder="Type here">
+                <button type="submit">Search</button>
+            </form>
+            <div id="weather-data">
+                <div id="city-info">
+                    <h3 id="city-name"></h3>
+                    <p id="date"></p>
+                </div>
+                <div id="weather-info">
+                    <div id="icon"></div>
+                    <p id="temperature"></p>
+                    <p id="humidity"></p>
+                    <p id="wind-speed"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
